@@ -1,0 +1,20 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+    commands:
+      - echo "Installing dependencies..."
+      - npm install --legacy-peer-deps
+  build:
+    commands:
+      - echo "Building React App..."
+      - npm run build
+
+# On retire post_build et cache, on garde seulement les fichiers build pour debug
+artifacts:
+  files:
+    - '**/*'
+  base-directory: build
+  discard-paths: no   # supprime les chemins originaux, ne garde que les fichiers eux-mêmes
