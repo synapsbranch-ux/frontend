@@ -1,0 +1,10 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7A9BEE" />
+      <stop offset="100%" stop-color="#3D48C1" />
+    </linearGradient>
+  </defs>
+  <path d="M20 30 Q60 10 100 30 Q90 60 60 90 Q30 70 20 30 Z" fill="url(#logoGradient)" />
+  <text x="60" y="70" text-anchor="middle" font-family="Inter, sans-serif" font-size="36" font-weight="700" fill="white">S</text>
+</svg>
